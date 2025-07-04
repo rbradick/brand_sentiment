@@ -1,4 +1,8 @@
 import os
+os.environ["STREAMLIT_HOME"] = "/tmp"
+os.environ["STREAMLIT_TELEMETRY_ENABLED"] = "0"
+
+import os
 os.environ["STREAMLIT_SUPPRESS_CONFIG_WARNINGS"] = "true"
 os.environ["STREAMLIT_DISABLE_LOGGING"] = "1"
 os.environ["STREAMLIT_HOME"] = "/tmp"
